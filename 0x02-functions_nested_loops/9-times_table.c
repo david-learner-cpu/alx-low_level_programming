@@ -5,35 +5,35 @@
  * Return: times table
  * add extra space past single digit
  */
-void time_table(void)
+void times_table(void)
 {
-	int i, j, d;
+		int i, j, d;
 
-	for (i = 0; i <= 9; i++)
-	{
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-
-		for (j = 1; j <= 9; j++)
+		for (i = 0; i <= 9; i++)
 		{
-			d = (i * j);
-			if ((d /10) > 0)
-			{
-				_putchar((d / 10) + '0');
-			}
-			else
-			{
-				_putchar(' ');
-			}
-			_putchar((d % 10) + '0');
+			_putchar('0');
+			_putchar(',');
+			_putchar(' ');
 
-			if (j < 9)
+			for (j = 1; j <= 9; j++)
 			{
-				_putchar(',');
-				_putchar(' ');
+				d = (i * j);
+				if ((d / 10) > 0)
+				{
+					_putchar((d / 10) + '0');
+				}
+				else
+				{
+					_putchar(' ');
+				}
+				_putchar((d % 10) + '0');
+
+				if (j < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
-	}
 }
