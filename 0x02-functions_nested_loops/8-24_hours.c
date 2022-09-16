@@ -3,7 +3,7 @@
  * jack_bauer - prints every minute of the day
  * h = hour, m = minutes
  * Description: prints evry minute of the day
- * Return: 24 hour clock line by line 
+ * Return: 24 hour clock line by line
  */
 void jack_bauer(void)
 {
