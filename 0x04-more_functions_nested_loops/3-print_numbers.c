@@ -4,6 +4,7 @@
 /**
  * print_numbers - function that print all numbers from
  * 0 t0 9
+ *
  * Return: return nothing
  */
 
