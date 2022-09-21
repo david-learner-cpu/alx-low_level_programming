@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -16,9 +16,11 @@ int main(void)
 	n = 0;
 	i = 0;
 	srand(time(NULL));
+
 	while (n < 2645)
 	{
 		r = rand() % 122;
+
 		if (r > 32)
 		{
 			a[i++] = r;
