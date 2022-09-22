@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stio.h>
 
 /**
  * _strcat - concatenates the string pointed to by @src to
